@@ -8,19 +8,19 @@ All Credit for this Code goes to [Tomnomnom](https://github.com/tomnomnom/)
 ## Changes to original kxss
 I changed the output format of kxss to make it better grepable for my recon script. My new Output Looks like this:
 ```
-URL: https://www.**********.***/event_register.php?event=177 Param: event Unfiltered: [" ' < >]
+[kxss] [http] [info] http://testphp.vulnweb.com/hpp/params.php?p=xxxx [param: p ] [unfiltred: [" ' < > $ | ( ) ` : ; { }]]
 ```
 
 ## Installation
 To install this Tool please use the following Command:
 ```
-go get github.com/Emoe/kxss
+go install github.com/phor3nsic/kxss@latest
 ```
 
 ## Usage
 To run this script use the following command:
 ```
-echo "https://www.**********.***/event_register.php?event=177" | kxss
+echo "http://testphp.vulnweb.com/hpp/params.php?p=xxxx" | kxss
 ```
 
 ## Question
