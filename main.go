@@ -86,7 +86,8 @@ func main() {
 			}
 		}
 		if len(output_of_url) >= 2 {
-			fmt.Printf("URL: %s Param: %s Unfiltered: %v \n", output_of_url[0] , output_of_url[1],output_of_url[2:])
+			//fmt.Printf("URL: %s Param: %s Unfiltered: %v \n", output_of_url[0] , output_of_url[1],output_of_url[2:])
+			fmt.Printf("[kxss] [http] [info] %s [param: %s ] [unfiltred: %v]\n", output_of_url[0], output_of_url[1], output_of_url[2:])
 		}
 	})
 
