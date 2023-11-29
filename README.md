@@ -2,7 +2,7 @@
 
 ## Changes to original kxss
 I added a check to determine where the reflection occurs, either within a general body tag or within a script tag. This aims to facilitate explorations in script tags where some characters are not necessary.
-I changed the output format of kxss to make it better grepable for my recon script. My new Output Looks like this:
+I changed the output format of kxss to make it better analyse. My new Output Looks like this:
 ```
 ============================
 Severity: info
