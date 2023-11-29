@@ -37,7 +37,7 @@ func TestAppend(t *testing.T) {
 
 	defer ts.Close()
 
-	r, err := checkAppend(ts.URL+"?name=Mr%20Naughty", "name", "somerandomvalue")
+	r, p, err := checkAppend(ts.URL+"?name=Mr%20Naughty", "name", "somerandomvalue")
 
 	if err != nil {
 		t.Fatalf("expected nil error from checkAppend(), have %s", err)
@@ -45,5 +45,8 @@ func TestAppend(t *testing.T) {
 
 	if !r {
 		t.Errorf("wanted checkAppend() to return true, but it didn't")
+	}
+	if p == "" {
+
 	}
 }
