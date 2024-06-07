@@ -1,4 +1,4 @@
-module github.com/phor3nsic/kxss
+module github.com/nitish800/kxss
 
 go 1.20
 
