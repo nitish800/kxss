@@ -1,6 +1,6 @@
 module github.com/phor3nsic/kxss
 
-go 1.23
+go 1.20.0
 
 require (
 	github.com/fatih/color v1.16.0 // indirect
